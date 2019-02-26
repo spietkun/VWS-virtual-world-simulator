@@ -49,11 +49,12 @@
 **Animals**
 
 | ID | Animal   | Strength | Inititative | Action                   | Collision                                                                        |
-|----|----------|----------|-------------|--------------------------|----------------------------------------------------------------------------------|
-| 1  | wolf     | 9        | 5           | x                        | x                                                                                |
-| 2  | sheep    | 4        | 4           | x                        | x                                                                                |
-| 3  | turtle   | 2        | 1           | 75% chance of not moving | Resists attacks of attack with strength < 5 Attacker must come back to its field |
-| 4  | antelope | 4        | 4           | move range is 2          | 50% chance of fleeing before fight - then move to the nearby empty field         |
+|----|----------|----------|-------------|-------------------------------------------------------------|----------------------------------------------------------------------------------|
+| 1  | wolf     | 9        | 5           | x                                                           | x                                                                                |
+| 2  | sheep    | 4        | 4           | x                                                           | x                                                                                |
+| 3  | fox      | 3        | 7           | won't move to the field with an animal with higher strength | x                                                                                |
+| 4  | turtle   | 2        | 1           | 75% chance of not moving | Resists attacks of attack with strength < 5 Attacker must come back to its field |
+| 5  | antelope | 4        | 4           | move range is 2          | 50% chance of fleeing before fight - then move to the nearby empty field         |
 
 **Plants**
 
