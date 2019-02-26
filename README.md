@@ -6,15 +6,16 @@
  - [Description](#description)
 	 - [General](#general)
 	 - [Rules](#rules)
+		 - [Main rules](#main-rules)
+		 - [Detailed rules](#detailed-rules)
 	 - [Programming languages](#programming-languages)
-	 - [Systems](#systems)
-	 - [Notes](#notes)
+	 - [Symbols](#symbols)
  - [Usage](#usage)
- - [Date](#date) (optional)
  
 ## Visuals
 
-![Screenshot](docs/images/screenshot.jpg)
+![Screenshot](docs/images/screen1.png)
+![Screenshot](docs/images/screen2.png)
 
 ## Description
 
@@ -24,7 +25,7 @@
 
 ### Rules
 
-**Main rules:**
+#### Main rules
 
  - the world is a **two-dimensional board** NxM given by the user. 
  - there are simple organisms living in the world, each of them situated on one "field/tile"
@@ -36,9 +37,10 @@
 	 - Strength decides about result of the fight
 - Animals can have special abilities
 - User can activate special ability - "alzur shield" which protects him from any attacks for 5 turns
-- game can be saved and loaded
+- game can be saved and loaded - savestate.txt file
+- each turn a raport is made and shown explaing what happened in the round
 
-**Detailed rules:**
+#### Detailed rules
 
 **Human**
 
@@ -70,9 +72,25 @@
 
  - C++ (objective)
  
-### Notes
+### Symbols
 
-Additional notes
+Symbols used in the board explained:
+
+| symbol     | meaning    |
+|------------|------------|
+| w          | wolf       |
+| s          | sheep      |
+| t          | turtle     |
+| a          | antelope   |
+| green clr  | grass      |
+| yellow clr | sowthistle |
+| red clr    | guarana    |
+| purple clr | belladonna |
+| grey clr   | hogweed    |
+
+s - save current state
+l - load saved state
+a - activate alzur shield
 
 ## Usage
 
