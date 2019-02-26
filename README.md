@@ -88,9 +88,9 @@ Symbols used in the board explained:
 | purple clr | belladonna |
 | grey clr   | hogweed    |
 
-s - save current state
-l - load saved state
-a - activate alzur shield
+- s - save current state 
+ - l - load saved state 
+ - a - activate alzur shield
 
 ## Usage
 
