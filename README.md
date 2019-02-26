@@ -1,7 +1,6 @@
 # VWS-virtual-world-simulator
 simulation of the world with involved user moving with the person
 
-| Syntax      | Description | Test      |
-| ----------- | ----------- | --------- |
-| Test      | Title       | Test   |
-| Test   | Test        | Test      |
+| Strength | Inititative | Action                             | Collision                                                |
+|----------|-------------|------------------------------------|----------------------------------------------------------|
+| 5        | 4           | user chooses direction of the move | alzur shield - protects from being  attacked for 5 turns |
