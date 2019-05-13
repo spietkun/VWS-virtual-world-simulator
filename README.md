@@ -9,15 +9,15 @@
 		 - [Main rules](#main-rules)
 		 - [Detailed rules](#detailed-rules)
 	 - [Programming languages](#programming-languages)
-	 - [Graphics](#graphics)
+	 - [Symbols](#symbols)
  - [Usage](#usage)
  
 ## Visuals
 
-![Screenshot](docs/screens/screen1.png)
+![Screenshot](docs/images/screen1.png)
 
 
-![Screenshot](docs/screens/screen2.png)
+![Screenshot](docs/images/screen3.png)
 
 
 ![Screenshot](docs/images/screen2.png)
@@ -45,8 +45,6 @@
 - User can activate special ability - "alzur shield" which protects him from any attacks for 5 turns
 - game can be saved and loaded - savestate.txt file
 - each turn a raport is made and shown explaing what happened in the round
-- there is a possibility of controling the character movement , saving and loading the game by clicking the buttons
-- there is a possibility of adding new organisms to the board by clicking an empty field and choosing one of the organisms
 
 #### Detailed rules
 
@@ -80,24 +78,21 @@
 
  - C++ (objective)
  
-### Graphics
+### Symbols
 
-Graphics that symbolize organisms:
-![Screenshot](docs/images/screen3.png)
-are consequently:
+Symbols used in the board explained:
 
-
-| organisms |
-|------------|
-| wolf          |
-| sheep          |
-| turtle          |
-| antelope          | 
-| grass  |
-| sowthistle | 
-| guarana    | 
-| belladonna |
-| hogweed   |
+| symbol     | meaning    |
+|------------|------------|
+| w          | wolf       |
+| s          | sheep      |
+| t          | turtle     |
+| a          | antelope   |
+| green clr  | grass      |
+| yellow clr | sowthistle |
+| red clr    | guarana    |
+| purple clr | belladonna |
+| grey clr   | hogweed    |
 
 - s - save current state 
  - l - load saved state 
