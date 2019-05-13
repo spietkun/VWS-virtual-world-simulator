@@ -14,6 +14,7 @@
  
 ## Visuals
 
+**Gameplay**
 ![Screenshot](docs/images/screen1.png)
 
 
