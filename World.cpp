@@ -354,10 +354,10 @@ void World::performRound()
 int World::download_key()
 {
 	int result = OTHER_KEY;
-	int key = getch();
+	int key = _getch();
 	if (key == 0 || key == 224)
 	{
-		key = getch();
+		key = _getch();
 		if (key == UP_ARROW)
 		{
 			result = MOVE_UP;
